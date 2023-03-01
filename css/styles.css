@@ -1662,7 +1662,12 @@ h1, .h1 {
         line-height: var(--vspace-1_75);
     }
 }
-
+/* @media (max-width: 400px) {
+    .moreBtn {
+        width: 100% !important;
+    }
+} */
+    
 h2, .h2 {
     font-size: var(--text-xxl);
     line-height: var(--vspace-1_5);
