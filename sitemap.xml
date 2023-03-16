@@ -1,51 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://www.binatecagency.com/index.html</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/BINATEC.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/PatelPlasticSurgery.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/TokenizedMixFIts.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/dbrightportfolio.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/BSF.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/CryptoBarber.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/Respected_Writers.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/images/portfolio/gallery/Rise Ecommerce Store.png</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/tel:+2349066548044</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/./terms.html</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/./index.html#hero</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/./index.html#about</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/./index.html#services</loc>
-</url>
-<url>
-  <loc>http://www.binatecagency.com/./index.html#portfolio</loc>
-</url>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+  <loc>https://www.binatecagency.com/index.html</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./index.html</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./services.html</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/BINATEC.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/PatelPlasticSurgery.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/TokenizedMixFIts.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/dbrightportfolio.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/BSF.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/CryptoBarber.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/Respected_Writers.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/images/portfolio/gallery/Rise Ecommerce Store.png</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/tel:+2349066548044</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./terms.html</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/index.html#about</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./index.html#portfolio</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./index.html#hero</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./index.html#about</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+  <loc>https://www.binatecagency.com/./index.html#services</loc>
+  <lastmod>2023-03-06</lastmod>
+  </url>
 </urlset>
