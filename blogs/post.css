@@ -1,0 +1,34 @@
+.postTitleContainer {
+    height: 100%;
+    display: flex; 
+    flex-direction: column !important;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    color: white; 
+    margin-top: 100px; 
+    padding: 0 30px;
+}
+.postTitle {
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+.davidCenter {
+    display: grid;
+    place-items: center;
+}
+.colouredText {
+    color: #FF0020;
+}
+.postContent {
+    color: white;
+}
+.blogHero {
+    padding-top: 100px;
+}
+.mainPostContent {
+    padding-top: 50px
+}
+.blogImg {
+    margin: 0 auto;
+}

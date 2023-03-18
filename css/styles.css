@@ -719,7 +719,22 @@ textarea {
     appearance: none;
 }
 
-
+/* cursor css */
+.cursor {
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    pointer-events: none;
+    position: fixed;
+    top: -25px;
+    left: -25px;
+    z-index: 10;
+    opacity: .6;
+    transition:  scale .5s ease;
+}
 
 /* ===================================================================
  * # Grid v3.0.0
@@ -765,7 +780,12 @@ textarea {
 .collapse>.column, .column.collapse {
     padding: 0;
 }
-
+.spacer {
+    padding-bottom: 100px !important;
+}
+.portfolioContainer {
+    border: 1px solid #fff;
+}
 /* flex row containers utility classes
  */
 .row.row-wrap {
@@ -1233,6 +1253,9 @@ textarea {
         max-width: 100%;
     }
     .hide-on-mobile {
+        display: none;
+    }
+    .cursor {
         display: none;
     }
 }
@@ -2024,6 +2047,7 @@ button,
 .ss-custom-select {
     margin-bottom: var(--vspace-1);
 }
+
 
 
 
