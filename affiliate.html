@@ -20,6 +20,15 @@
     gtag('config', 'G-069GHLG2S0');
     </script>
 
+    <!-- Clarity tracking code for https://www.binatecagency.com/ -->
+    <script>
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "g72n21v9qe");
+    </script>
+
     <!-- social sharing -->
 
     <meta property="og:site_name" content="Binatec Agency" />
@@ -61,11 +70,16 @@
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/affiliate.css">
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- canonical
+    ====================================== -->
+    <link rel="canonical" href="https://binatecagency.com/affiliate">
 
     <!-- favicons
     ================================================== -->
@@ -73,6 +87,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
     <link rel="manifest" href="site.webmanifest">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
 
 </head>
 
@@ -92,7 +108,7 @@
             <div></div>
         </div>
     </div>
-
+    <div class="cursor"></div>
 
     <!-- header
     ================================================== -->
@@ -108,10 +124,11 @@
     
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">.Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">.About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">.Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">.Works</a></li>
+                    <li><a href="./index.html" title="Intro">.Home</a></li>
+                    <li><a href="./about.html" title="About">.About</a></li>
+                    <li><a href="./services.html" title="Services">.Services</a></li>
+                    <li><a href="./portfolio.html" title="Works">.Works</a></li>
+                    <li><a href="./blog.html" title="Works">.Blog</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
@@ -127,82 +144,247 @@
     </header> <!-- end s-header -->
 
 
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
+            <!-- hero
+            ================================================== -->
+            <section id="hero" class="s-hero target-section">
 
-        <div class="s-hero__bg">
-            <div class="gradient-overlay"></div>
-        </div>
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <h1>Hello.</h1>
-                <div class="s-hero__content-about">
-
-                    <p>
-                     We are BIN<span class="logo_text_colored">ATEC</span> We love <br> 
-                    building great brands <br>
-                    & digital experiences.
-                    </p>
-    
-                    <footer>
-                        <div class="s-hero__content-social">
-                            <a href="https://www.fb.me/binatecagency" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/binatecagency" title="Twitter" rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/binatecagency" title="Instagram" rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/company/binatec-agency/" title="LinkedIn" rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </footer>
+                <div class="s-hero__bg">
+                    <div class="gradient-overlay"></div>
                 </div>
 
+                <div class="row s-hero__content">
+                    <div class="column">
+
+                        <h1>Affiliate.</h1>
+                        <div class="s-hero__content-about">
+
+                            <p>
+                                You already rave about BIN<span class="logo_text_colored">ATEC?</span><br>
+                                Let’s make it official
+                            </p>
+            
+                            <footer>
+                                <div class="s-hero__content-social">
+                                    <a href="https://www.fb.me/binatecagency" title="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/binatecagency" title="Twitter" rel="noopener" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/binatecagency" title="Instagram" rel="noopener" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/company/binatec-agency/" title="LinkedIn" rel="noopener" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </footer>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="s-hero__video">
+                    <a class="s-hero__video-link" href="https://youtu.be/ffPtnGT3zAQ"  data-lity=""> <!-- https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0 -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                        <span class="s-hero__video-text">Play Video</span>
+                    </a>
+                </div>
+
+                <div class="s-hero__scroll">
+                    <a href="#about" class="s-hero__scroll-link smoothscroll">
+                        Scroll Down
+                    </a>
+                </div>
+
+            </section> <!-- end s-hero -->
+
+
+            <!-- about
+            ================================================== -->
+            <section id="about" class="s-about">
+
+                <h2>
+                    Join Binatec affiliates program and start earning now
+                </h2>
+                <div class="flex-service">
+                    <div class="register">
+            
+                        <h3>
+                        <span class="number">1.</span>Register as an affiliate
+                        </h3>
+                        <p>Lorem ipsum,dolor sit amet consectetur adipisicingelit.Aspernaturipsum numquam.</p>
+                    </div>
+
+                    <div class="register">
+            
+                        <h3>
+                            <span class="number">2.</span>Promote Binatec 
+                        </h3>
+                        <p>Lorem ipsum,dolor sit amet consectetur adipisicingelit.Aspernaturipsum numquam.</p>
+                    </div>
+
+                    <div class="register">
+            
+                        <h3>
+                            <span class="number">3.</span>Start earning 
+                        </h3>
+                        <p>Lorem ipsum,dolor sit amet consectetur adipisicingelit.Aspernaturipsum numquam.</p>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <h2>We support you every step of the way</h2>
+                    <p>We’re here to help you succeed. As an affiliate, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas deleniti possimu.
+                </p>
+                </div>
+
+                <div class="flex-image">
+                        <div class="sub-image1">
+                        <img src="./images/pay dash.webp">
+                        <div class="text1">
+                            <h4>Simple, timely payments</h4>
+                            <p>You can choose to get paid via Paypal or e-transfer. We pay regularly, so you get your earnings sooner.</p>
+                        </div>
+                        </div>
+
+                        <div class="sub-image2">
+                        <img src=" ./images/reddit dash.png">
+                        <div class="text1">
+                            <h4>Priority support</h4>
+                            <p>Our email and live-chat support is available around the clock to ensure you can earn commissions trouble-free.</p>
+                        </div>
+                        </div>
+
+                        <div class="sub-image3">
+                        <img src="./images/dashboard_.webp ">
+                        <div class="text1">
+                            <h4>Track your results</h4>
+                            <p>Our email and live-chat support is available around the clock to ensure you can earn commissions trouble-free.</p>
+                        </div>
+                        </div>
+                </div>
+
+            <div class="why-us cont">
+                <div class="flex-cont">
+
+                    <div class="flex2">
+                    <img class="image1" src="./images/illustrator.png">
+                    </div>
+                <div class="flex1">
+                <h4>Why Binatec?</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quos asperiores autem, voluptatem dolores modi consequuntur, voluptates magni molestiae voluptatum cumque, assumenda ipsam ab facere perferendis minus debitis saepe Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste perspiciatis culpa repellendus alias autem aliquam minus placeat tenetur reprehenderit. Odit, quas porro corrupti quia minima saepe quam illo enim soluta?</p>
+                </div>
+
+            
+                </div>
             </div>
+
+            <div class="cont2">
+                <h3>What do we look for?</h3>
+                <p>Passion is the first thing we look for in a partner. You already rave about Binatec? <br>Let’s make it official. You’re a good fit if you…</p>
+                <div class="flex-image2">
+                    <div class="sub-image1">
+                    <img src="./images/design influencer_800x600.jpg">
+                    <div class="text1">
+                        <h4>Are a design influencer?</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium expedita est, eligendi quaerat, veritatis facilis reprehenderit quibusdam ipsa quas assumenda dolor, dolorem adipisci tempor.</p>
+                    </div>
+                    </div>
+
+                    <div class="sub-image2">
+                    <img src="./images/design_800x600.jpg">
+                    <div class="text1">
+                        <h4>Are you an affiliate marketer?</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam fugiat reprehenderit non deleniti labore eos animi molestias ullam. Est laudantium illo esse imped.</p>
+                    </div>
+                    </div>
+
+                    <div class="sub-image3">
+                    <img src="./images/large audience_800x600.jpg">
+                    <div class="text1">
+                        <h4>Do you have a large audience?</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nulla ad asperiores, debitis consectetur voluptate iusto alias aliquam fugiat at, dolor delectus.</p>
+                    </div>
+                    </div>
+            </div>
+            </div>
+            <div class="row narrower s-clients__top h-text-center">
+                <div class="column">
+                    <center >
+                    <h2 class="display-1" data-aos="fade-up">
+                    We've had the priveledge with working with
+                    some exciting brands and entrepreneurs
+                    </h2>
+                    </center>
+                </div>
+            </div>
+            <div class="row testimonials collapse">
+                
+                <div class="column large-12">
+
+                    <div class="testimonial-slider" data-aos="fade-up">
+
+                        <div class="testimonial-slider__slide">
+                            <p>
+                                Working with Binatec was a great experience, He was fast, understanding and very professional in handling my project. I'll highlty recommend you to start your next project with him. You'll not regret your decision
+                            </p>
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/FA_logo.png" alt="Author-image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Frankel Antonie</strong>
+                                    <span>CEO, Fading Autism</span>
+                                </cite>
+                            </div>
+                        </div> <!-- end testimonials__slide -->
+
+                        <div class="testimonial-slider__slide">
+                            <p>
+                                I have been working with Binatec for the past year and I am extremely impressed with the level of expertise and professionalism that the team brings to every project. From the very beginning, Binatec has been incredibly responsive to my needs and has gone above and beyond to ensure that all of my digital marketing goals are met. 
+                            </p>
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars//MixFits.png" alt="Author-image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Dapo Grey</strong>
+                                    <span>CEO, MixFits</span>
+                                </cite>
+                            </div>
+                        </div> <!-- end testimonials__slide -->
+
+                        <div class="testimonial-slider__slide">
+                            <p>
+                                One of the things that really sets Binatec apart is their ability to understand my business and my target audience. They have helped me to develop highly targeted campaigns that have resulted in increased traffic and conversions on my website. Highly recommended for your next project.
+                            </p>
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/KOFA.jpg" alt="Author-image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>KOFA</strong>
+                                    <span>CEO, KOFA Token</span>
+                                </cite>
+                            </div>
+                        </div> <!-- end testimonials__slide -->
+
+                        <div class="testimonial-slider__slide">
+                            <p>
+                                I am extremely satisfied with the services that I have received from Binatec and I would highly recommend them to any business looking to improve their online presence. The team at Binatec is truly a pleasure to work with and I am confident that they will continue to provide outstanding results for my business.
+                            </p>
+                            <div class="testimonial-slider__author">
+                                <img src="images/avatars/BCKP.jpg" alt="Author-image" class="testimonial-slider__avatar">
+                                <cite class="testimonial-slider__cite">
+                                    <strong>Dr. Bhupendra Patel</strong>
+                                    <span>Cosmetic Surgeon, Patel Plastic Surgery</span>
+                                </cite>
+                            </div>
+                        </div> <!-- end testimonials__slide -->
+
+                    </div> <!-- end testimonial slider -->
+                    
+                </div> <!-- end column -->
+
+            </div> <!-- end row -->
+
+
+        </div> <!-- end s-clients -->
+
+        <div class="calltoaction">
+            <h3>Become an Affiliate Partner</h3>
+            <p>Apply now or contact us at affiliate@binatecagency.com
+            </p>
+        
+                <a class="buttton"href="">Join Now</a>
         </div>
-
-        <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://youtu.be/ffPtnGT3zAQ"  data-lity=""> <!-- https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0 -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
-                <span class="s-hero__video-text">Play Video</span>
-            </a>
-        </div>
-
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                Scroll Down
-            </a>
-        </div>
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about">
-
-        
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id="services" class="s-services">
-
-        
-        
-    </section> <!-- end s-services -->
-
-    <section id="pricing" class="s-services">
-        
-    </section>
-
-    <section id="portfolio" class="s-portfolio">
-
-        
-
-    </section> <!-- end s-portfolio -->
-
 
    
 
@@ -234,7 +416,7 @@
 
     <!-- footer
     ================================================== -->
-    <footer class="s-footer">
+    <footer class="s-footer affiliateFooter">
         <div class="row row-y-top">
 
             <div class="column large-8 medium-12">
@@ -286,47 +468,6 @@
 
         </div>
     </footer>
-    
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
 
     <!-- Java Script
     ================================================== -->
